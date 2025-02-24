@@ -1,3 +1,4 @@
+# Core requirements
 numpy>=1.19.2
 opencv-python>=4.5.1
 open3d>=0.13.0
@@ -6,3 +7,13 @@ filterpy>=1.4.5
 torch>=1.8.1
 djitellopy>=2.3.0
 pandas>=1.2.4
+
+# Additional requirements for full functionality
+scikit-learn>=0.24.2  # For machine learning components
+pykalman>=0.9.5      # Enhanced Kalman filtering
+transforms3d>=0.3.1   # 3D transformations
+scipy>=1.7.0         # Scientific computing
+pytest>=6.2.5        # Testing framework
+pillow>=8.2.0        # Image processing
+h5py>=3.2.1         # Data storage
+tensorboard>=2.5.0   # Neural network visualization
