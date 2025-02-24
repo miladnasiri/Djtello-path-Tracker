@@ -1,0 +1,47 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- System Architecture Diagram -->
+    <rect x="0" y="0" width="800" height="600" fill="#1a1a1a"/>
+    
+    <!-- Drone Hardware Layer -->
+    <rect x="300" y="50" width="200" height="60" fill="#2962ff" rx="10"/>
+    <text x="400" y="85" fill="white" text-anchor="middle" font-family="Arial" font-size="16">Drone Hardware</text>
+    
+    <!-- Core Systems -->
+    <rect x="100" y="200" width="150" height="60" fill="#00897b" rx="10"/>
+    <text x="175" y="235" fill="white" text-anchor="middle" font-family="Arial" font-size="16">SLAM System</text>
+    
+    <rect x="325" y="200" width="150" height="60" fill="#d81b60" rx="10"/>
+    <text x="400" y="235" fill="white" text-anchor="middle" font-family="Arial" font-size="16">Control System</text>
+    
+    <rect x="550" y="200" width="150" height="60" fill="#ffc107" rx="10"/>
+    <text x="625" y="235" fill="white" text-anchor="middle" font-family="Arial" font-size="16">Digital Twin</text>
+    
+    <!-- Subsystems -->
+    <rect x="50" y="350" width="120" height="50" fill="#4caf50" rx="10"/>
+    <text x="110" y="380" fill="white" text-anchor="middle" font-family="Arial" font-size="14">Feature Detection</text>
+    
+    <rect x="180" y="350" width="120" height="50" fill="#4caf50" rx="10"/>
+    <text x="240" y="380" fill="white" text-anchor="middle" font-family="Arial" font-size="14">Pose Estimation</text>
+    
+    <rect x="310" y="350" width="120" height="50" fill="#e91e63" rx="10"/>
+    <text x="370" y="380" fill="white" text-anchor="middle" font-family="Arial" font-size="14">PID Control</text>
+    
+    <rect x="440" y="350" width="120" height="50" fill="#e91e63" rx="10"/>
+    <text x="500" y="380" fill="white" text-anchor="middle" font-family="Arial" font-size="14">Neural Network</text>
+    
+    <rect x="570" y="350" width="120" height="50" fill="#ff9800" rx="10"/>
+    <text x="630" y="380" fill="white" text-anchor="middle" font-family="Arial" font-size="14">State Monitoring</text>
+    
+    <!-- Connections -->
+    <line x1="400" y1="110" x2="175" y2="200" stroke="white" stroke-width="2"/>
+    <line x1="400" y1="110" x2="400" y2="200" stroke="white" stroke-width="2"/>
+    <line x1="400" y1="110" x2="625" y2="200" stroke="white" stroke-width="2"/>
+    
+    <line x1="175" y1="260" x2="110" y2="350" stroke="white" stroke-width="2"/>
+    <line x1="175" y1="260" x2="240" y2="350" stroke="white" stroke-width="2"/>
+    
+    <line x1="400" y1="260" x2="370" y2="350" stroke="white" stroke-width="2"/>
+    <line x1="400" y1="260" x2="500" y2="350" stroke="white" stroke-width="2"/>
+    
+    <line x1="625" y1="260" x2="630" y2="350" stroke="white" stroke-width="2"/>
+</svg>
