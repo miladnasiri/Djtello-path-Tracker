@@ -2,6 +2,28 @@
 
 ## 📋 Overview
 An advanced real-time path tracking and digital twin system for the DJI Tello drone, integrating SLAM, computer vision, and hybrid control algorithms for enhanced autonomy and performance.
+## 🎯 Project Goals & Significance
+This project aims to:
+
+1. **Real-time Control & Autonomy**
+   - Develop autonomous navigation capabilities for Tello drones
+   - Enable precise path tracking in dynamic environments
+   - Achieve real-time response to environmental changes
+
+2. **Digital Twin Innovation**
+   - Create a virtual replica of drone behavior
+   - Enable predictive analysis and simulation
+   - Facilitate safe testing of control algorithms
+
+3. **Advanced Algorithm Integration**
+   - Implement state-of-the-art SLAM techniques
+   - Combine classical control with machine learning
+   - Develop robust safety protocols
+
+4. **Industrial Applications**
+   - Indoor navigation and mapping
+   - Inspection and surveillance tasks
+   - Training and simulation platform
 
 ## 🌟 Key Features
 - Real-time SLAM-based position tracking
